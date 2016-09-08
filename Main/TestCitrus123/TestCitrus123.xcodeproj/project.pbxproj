@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B9681B1D7EFC83007DEEB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9681A1D7EFC83007DEEB0 /* main.m */; };
+		A3B9681E1D7EFC83007DEEB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9681D1D7EFC83007DEEB0 /* AppDelegate.m */; };
+		A3B968211D7EFC83007DEEB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968201D7EFC83007DEEB0 /* ViewController.m */; };
+		A3B968241D7EFC83007DEEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B968221D7EFC83007DEEB0 /* Main.storyboard */; };
+		A3B968261D7EFC83007DEEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B968251D7EFC83007DEEB0 /* Assets.xcassets */; };
+		A3B968291D7EFC83007DEEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B968271D7EFC83007DEEB0 /* LaunchScreen.storyboard */; };
+		A3B968471D7EFC9C007DEEB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3B968311D7EFC9C007DEEB0 /* Info.plist */; };
+		A3B968481D7EFC9C007DEEB0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968341D7EFC9C007DEEB0 /* JSONModel.m */; };
+		A3B968491D7EFC9C007DEEB0 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968361D7EFC9C007DEEB0 /* JSONModelClassProperty.m */; };
+		A3B9684A1D7EFC9C007DEEB0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968381D7EFC9C007DEEB0 /* JSONModelError.m */; };
+		A3B9684B1D7EFC9C007DEEB0 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9683C1D7EFC9C007DEEB0 /* JSONAPI.m */; };
+		A3B9684C1D7EFC9C007DEEB0 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9683E1D7EFC9C007DEEB0 /* JSONHTTPClient.m */; };
+		A3B9684D1D7EFC9C007DEEB0 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968401D7EFC9C007DEEB0 /* JSONModel+networking.m */; };
+		A3B9684E1D7EFC9C007DEEB0 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968431D7EFC9C007DEEB0 /* JSONKeyMapper.m */; };
+		A3B9684F1D7EFC9C007DEEB0 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968451D7EFC9C007DEEB0 /* JSONValueTransformer.m */; };
+		A3B968561D7EFCB8007DEEB0 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B968551D7EFCA3007DEEB0 /* JSONModel.framework */; };
+		A3B968571D7EFCB8007DEEB0 /* JSONModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3B968551D7EFCA3007DEEB0 /* JSONModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3B9685F1D7EFCC8007DEEB0 /* CitrusPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3B9685C1D7EFCC8007DEEB0 /* CitrusPay.bundle */; };
+		A3B968601D7EFCC8007DEEB0 /* CitrusPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B9685D1D7EFCC8007DEEB0 /* CitrusPay.framework */; };
+		A3B968611D7EFCC8007DEEB0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A3B9685E1D7EFCC8007DEEB0 /* LICENSE */; };
+		A3B968631D7EFCCF007DEEB0 /* CitrusPay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3B9685D1D7EFCC8007DEEB0 /* CitrusPay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3B968701D7EFD1B007DEEB0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968651D7EFD1B007DEEB0 /* BaseViewController.m */; };
+		A3B968711D7EFD1B007DEEB0 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968671D7EFD1B007DEEB0 /* CardsViewController.m */; };
+		A3B968721D7EFD1B007DEEB0 /* AutoloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B968691D7EFD1B007DEEB0 /* AutoloadViewController.m */; };
+		A3B968731D7EFD1B007DEEB0 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9686B1D7EFD1B007DEEB0 /* HMSegmentedControl.m */; };
+		A3B968741D7EFD1B007DEEB0 /* UICustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9686D1D7EFD1B007DEEB0 /* UICustomButton.m */; };
+		A3B968751D7EFD1B007DEEB0 /* UICustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B9686F1D7EFD1B007DEEB0 /* UICustomTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B968541D7EFCA3007DEEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B968501D7EFCA3007DEEB0 /* JSONModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 92C9BC3D1B19A51100D79B06;
+			remoteInfo = JSONModel;
+		};
+		A3B968581D7EFCB8007DEEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B968501D7EFCA3007DEEB0 /* JSONModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C9BC3C1B19A51100D79B06;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3B9685A1D7EFCB8007DEEB0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3B968571D7EFCB8007DEEB0 /* JSONModel.framework in Embed Frameworks */,
+				A3B968631D7EFCCF007DEEB0 /* CitrusPay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3B968161D7EFC83007DEEB0 /* TestCitrus123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCitrus123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B9681A1D7EFC83007DEEB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B9681C1D7EFC83007DEEB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B9681D1D7EFC83007DEEB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B9681F1D7EFC83007DEEB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3B968201D7EFC83007DEEB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3B968231D7EFC83007DEEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B968251D7EFC83007DEEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3B968281D7EFC83007DEEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3B9682A1D7EFC83007DEEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B968311D7EFC9C007DEEB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B968331D7EFC9C007DEEB0 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		A3B968341D7EFC9C007DEEB0 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		A3B968351D7EFC9C007DEEB0 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		A3B968361D7EFC9C007DEEB0 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		A3B968371D7EFC9C007DEEB0 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		A3B968381D7EFC9C007DEEB0 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		A3B968391D7EFC9C007DEEB0 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		A3B9683B1D7EFC9C007DEEB0 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		A3B9683C1D7EFC9C007DEEB0 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		A3B9683D1D7EFC9C007DEEB0 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		A3B9683E1D7EFC9C007DEEB0 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		A3B9683F1D7EFC9C007DEEB0 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		A3B968401D7EFC9C007DEEB0 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		A3B968421D7EFC9C007DEEB0 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		A3B968431D7EFC9C007DEEB0 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		A3B968441D7EFC9C007DEEB0 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		A3B968451D7EFC9C007DEEB0 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		A3B968461D7EFC9C007DEEB0 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		A3B968501D7EFCA3007DEEB0 /* JSONModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONModel.xcodeproj; path = "../../../Social Pockets/Citrus/jsonmodel-master/JSONModel.xcodeproj"; sourceTree = "<group>"; };
+		A3B9685C1D7EFCC8007DEEB0 /* CitrusPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CitrusPay.bundle; sourceTree = "<group>"; };
+		A3B9685D1D7EFCC8007DEEB0 /* CitrusPay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CitrusPay.framework; sourceTree = "<group>"; };
+		A3B9685E1D7EFCC8007DEEB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3B968641D7EFD1B007DEEB0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A3B968651D7EFD1B007DEEB0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A3B968661D7EFD1B007DEEB0 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		A3B968671D7EFD1B007DEEB0 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		A3B968681D7EFD1B007DEEB0 /* AutoloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoloadViewController.h; sourceTree = "<group>"; };
+		A3B968691D7EFD1B007DEEB0 /* AutoloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoloadViewController.m; sourceTree = "<group>"; };
+		A3B9686A1D7EFD1B007DEEB0 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		A3B9686B1D7EFD1B007DEEB0 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		A3B9686C1D7EFD1B007DEEB0 /* UICustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomButton.h; sourceTree = "<group>"; };
+		A3B9686D1D7EFD1B007DEEB0 /* UICustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomButton.m; sourceTree = "<group>"; };
+		A3B9686E1D7EFD1B007DEEB0 /* UICustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomTextField.h; sourceTree = "<group>"; };
+		A3B9686F1D7EFD1B007DEEB0 /* UICustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomTextField.m; sourceTree = "<group>"; };
+		A3B968771D7EFD58007DEEB0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B968131D7EFC83007DEEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B968561D7EFCB8007DEEB0 /* JSONModel.framework in Frameworks */,
+				A3B968601D7EFCC8007DEEB0 /* CitrusPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B9680D1D7EFC83007DEEB0 = {
+			isa = PBXGroup;
+			children = (
+				A3B968181D7EFC83007DEEB0 /* TestCitrus123 */,
+				A3B968171D7EFC83007DEEB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B968171D7EFC83007DEEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968161D7EFC83007DEEB0 /* TestCitrus123.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B968181D7EFC83007DEEB0 /* TestCitrus123 */ = {
+			isa = PBXGroup;
+			children = (
+				A3B9685B1D7EFCC8007DEEB0 /* core-sdk */,
+				A3B968501D7EFCA3007DEEB0 /* JSONModel.xcodeproj */,
+				A3B968301D7EFC9C007DEEB0 /* JSONModel */,
+				A3B9681C1D7EFC83007DEEB0 /* AppDelegate.h */,
+				A3B9681D1D7EFC83007DEEB0 /* AppDelegate.m */,
+				A3B9681F1D7EFC83007DEEB0 /* ViewController.h */,
+				A3B968201D7EFC83007DEEB0 /* ViewController.m */,
+				A3B968771D7EFD58007DEEB0 /* Constants.h */,
+				A3B968761D7EFD1E007DEEB0 /* Pod */,
+				A3B968221D7EFC83007DEEB0 /* Main.storyboard */,
+				A3B968251D7EFC83007DEEB0 /* Assets.xcassets */,
+				A3B968271D7EFC83007DEEB0 /* LaunchScreen.storyboard */,
+				A3B9682A1D7EFC83007DEEB0 /* Info.plist */,
+				A3B968191D7EFC83007DEEB0 /* Supporting Files */,
+			);
+			path = TestCitrus123;
+			sourceTree = "<group>";
+		};
+		A3B968191D7EFC83007DEEB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B9681A1D7EFC83007DEEB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B968301D7EFC9C007DEEB0 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968311D7EFC9C007DEEB0 /* Info.plist */,
+				A3B968321D7EFC9C007DEEB0 /* JSONModel */,
+				A3B968391D7EFC9C007DEEB0 /* JSONModelLib.h */,
+				A3B9683A1D7EFC9C007DEEB0 /* JSONModelNetworking */,
+				A3B968411D7EFC9C007DEEB0 /* JSONModelTransformations */,
+				A3B968461D7EFC9C007DEEB0 /* module.modulemap */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		A3B968321D7EFC9C007DEEB0 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968331D7EFC9C007DEEB0 /* JSONModel.h */,
+				A3B968341D7EFC9C007DEEB0 /* JSONModel.m */,
+				A3B968351D7EFC9C007DEEB0 /* JSONModelClassProperty.h */,
+				A3B968361D7EFC9C007DEEB0 /* JSONModelClassProperty.m */,
+				A3B968371D7EFC9C007DEEB0 /* JSONModelError.h */,
+				A3B968381D7EFC9C007DEEB0 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		A3B9683A1D7EFC9C007DEEB0 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A3B9683B1D7EFC9C007DEEB0 /* JSONAPI.h */,
+				A3B9683C1D7EFC9C007DEEB0 /* JSONAPI.m */,
+				A3B9683D1D7EFC9C007DEEB0 /* JSONHTTPClient.h */,
+				A3B9683E1D7EFC9C007DEEB0 /* JSONHTTPClient.m */,
+				A3B9683F1D7EFC9C007DEEB0 /* JSONModel+networking.h */,
+				A3B968401D7EFC9C007DEEB0 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		A3B968411D7EFC9C007DEEB0 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968421D7EFC9C007DEEB0 /* JSONKeyMapper.h */,
+				A3B968431D7EFC9C007DEEB0 /* JSONKeyMapper.m */,
+				A3B968441D7EFC9C007DEEB0 /* JSONValueTransformer.h */,
+				A3B968451D7EFC9C007DEEB0 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		A3B968511D7EFCA3007DEEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968551D7EFCA3007DEEB0 /* JSONModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B9685B1D7EFCC8007DEEB0 /* core-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A3B9685C1D7EFCC8007DEEB0 /* CitrusPay.bundle */,
+				A3B9685D1D7EFCC8007DEEB0 /* CitrusPay.framework */,
+				A3B9685E1D7EFCC8007DEEB0 /* LICENSE */,
+			);
+			path = "core-sdk";
+			sourceTree = "<group>";
+		};
+		A3B968761D7EFD1E007DEEB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3B968641D7EFD1B007DEEB0 /* BaseViewController.h */,
+				A3B968651D7EFD1B007DEEB0 /* BaseViewController.m */,
+				A3B968661D7EFD1B007DEEB0 /* CardsViewController.h */,
+				A3B968671D7EFD1B007DEEB0 /* CardsViewController.m */,
+				A3B968681D7EFD1B007DEEB0 /* AutoloadViewController.h */,
+				A3B968691D7EFD1B007DEEB0 /* AutoloadViewController.m */,
+				A3B9686A1D7EFD1B007DEEB0 /* HMSegmentedControl.h */,
+				A3B9686B1D7EFD1B007DEEB0 /* HMSegmentedControl.m */,
+				A3B9686C1D7EFD1B007DEEB0 /* UICustomButton.h */,
+				A3B9686D1D7EFD1B007DEEB0 /* UICustomButton.m */,
+				A3B9686E1D7EFD1B007DEEB0 /* UICustomTextField.h */,
+				A3B9686F1D7EFD1B007DEEB0 /* UICustomTextField.m */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B968151D7EFC83007DEEB0 /* TestCitrus123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B9682D1D7EFC83007DEEB0 /* Build configuration list for PBXNativeTarget "TestCitrus123" */;
+			buildPhases = (
+				A3B968121D7EFC83007DEEB0 /* Sources */,
+				A3B968131D7EFC83007DEEB0 /* Frameworks */,
+				A3B968141D7EFC83007DEEB0 /* Resources */,
+				A3B9685A1D7EFCB8007DEEB0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B968591D7EFCB8007DEEB0 /* PBXTargetDependency */,
+			);
+			name = TestCitrus123;
+			productName = TestCitrus123;
+			productReference = A3B968161D7EFC83007DEEB0 /* TestCitrus123.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B9680E1D7EFC83007DEEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Pandiyaraj;
+				TargetAttributes = {
+					A3B968151D7EFC83007DEEB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A3B968111D7EFC83007DEEB0 /* Build configuration list for PBXProject "TestCitrus123" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B9680D1D7EFC83007DEEB0;
+			productRefGroup = A3B968171D7EFC83007DEEB0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A3B968511D7EFCA3007DEEB0 /* Products */;
+					ProjectRef = A3B968501D7EFCA3007DEEB0 /* JSONModel.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A3B968151D7EFC83007DEEB0 /* TestCitrus123 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A3B968551D7EFCA3007DEEB0 /* JSONModel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONModel.framework;
+			remoteRef = A3B968541D7EFCA3007DEEB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B968141D7EFC83007DEEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B968611D7EFCC8007DEEB0 /* LICENSE in Resources */,
+				A3B968471D7EFC9C007DEEB0 /* Info.plist in Resources */,
+				A3B968291D7EFC83007DEEB0 /* LaunchScreen.storyboard in Resources */,
+				A3B968261D7EFC83007DEEB0 /* Assets.xcassets in Resources */,
+				A3B9685F1D7EFCC8007DEEB0 /* CitrusPay.bundle in Resources */,
+				A3B968241D7EFC83007DEEB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B968121D7EFC83007DEEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B968741D7EFD1B007DEEB0 /* UICustomButton.m in Sources */,
+				A3B9684B1D7EFC9C007DEEB0 /* JSONAPI.m in Sources */,
+				A3B968701D7EFD1B007DEEB0 /* BaseViewController.m in Sources */,
+				A3B9684A1D7EFC9C007DEEB0 /* JSONModelError.m in Sources */,
+				A3B968211D7EFC83007DEEB0 /* ViewController.m in Sources */,
+				A3B968481D7EFC9C007DEEB0 /* JSONModel.m in Sources */,
+				A3B9684E1D7EFC9C007DEEB0 /* JSONKeyMapper.m in Sources */,
+				A3B9684D1D7EFC9C007DEEB0 /* JSONModel+networking.m in Sources */,
+				A3B9684F1D7EFC9C007DEEB0 /* JSONValueTransformer.m in Sources */,
+				A3B9684C1D7EFC9C007DEEB0 /* JSONHTTPClient.m in Sources */,
+				A3B968751D7EFD1B007DEEB0 /* UICustomTextField.m in Sources */,
+				A3B968731D7EFD1B007DEEB0 /* HMSegmentedControl.m in Sources */,
+				A3B968721D7EFD1B007DEEB0 /* AutoloadViewController.m in Sources */,
+				A3B968711D7EFD1B007DEEB0 /* CardsViewController.m in Sources */,
+				A3B968491D7EFC9C007DEEB0 /* JSONModelClassProperty.m in Sources */,
+				A3B9681E1D7EFC83007DEEB0 /* AppDelegate.m in Sources */,
+				A3B9681B1D7EFC83007DEEB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B968591D7EFCB8007DEEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			targetProxy = A3B968581D7EFCB8007DEEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3B968221D7EFC83007DEEB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B968231D7EFC83007DEEB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B968271D7EFC83007DEEB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B968281D7EFC83007DEEB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B9682B1D7EFC83007DEEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3B9682C1D7EFC83007DEEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B9682E1D7EFC83007DEEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinoth Kumar (8CTB636T4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinoth Kumar (8CTB636T4S)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestCitrus123/core-sdk",
+				);
+				INFOPLIST_FILE = TestCitrus123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideas2it.TestCitrus123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e38f11bf-e72e-4abc-8a11-3aa4acde08d7";
+			};
+			name = Debug;
+		};
+		A3B9682F1D7EFC83007DEEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinoth Kumar (8CTB636T4S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinoth Kumar (8CTB636T4S)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestCitrus123/core-sdk",
+				);
+				INFOPLIST_FILE = TestCitrus123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideas2it.TestCitrus123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e38f11bf-e72e-4abc-8a11-3aa4acde08d7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B968111D7EFC83007DEEB0 /* Build configuration list for PBXProject "TestCitrus123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B9682B1D7EFC83007DEEB0 /* Debug */,
+				A3B9682C1D7EFC83007DEEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B9682D1D7EFC83007DEEB0 /* Build configuration list for PBXNativeTarget "TestCitrus123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B9682E1D7EFC83007DEEB0 /* Debug */,
+				A3B9682F1D7EFC83007DEEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B9680E1D7EFC83007DEEB0 /* Project object */;
+}
